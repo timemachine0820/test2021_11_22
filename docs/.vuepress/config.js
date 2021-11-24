@@ -1,12 +1,27 @@
+const moment = require('moment');
+
 module.exports = {
+  base: "/test2021_11_22/",
   title: 'tao的blog',
   description: 'description',
   head: [
     ['meta', { name: 'keywords', content: 'tao,blog' }],
-    ['link', { rel: 'icon', href: '/favicon.ico' }]
+    ['link', { rel: 'icon', href: "$withBase('/favicon.ico')" }]
   ],
-  lastUpdated: '更新时间',
+  plugins: [
+    [
+      '@vuepress/last-updated',
+      {
+        transformer: (timestamp, lang) => {
+          // 不要忘了安装 moment
+          moment.locale("zh-cn")
+          return moment(timestamp).format("LLLL")
+        }
+      }
+    ]
+  ],
   themeConfig: {
+    lastUpdated: '更新时间',
     logo: '/assets/img/logo.png',
     nav: [
       { text: '主页', link: '/' },

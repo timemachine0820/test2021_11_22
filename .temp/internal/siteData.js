@@ -4,7 +4,7 @@
 export const siteData = {
   "title": "tao的blog",
   "description": "description",
-  "base": "/",
+  "base": "/test2021_11_22/",
   "headTags": [
     [
       "meta",
@@ -17,7 +17,7 @@ export const siteData = {
       "link",
       {
         "rel": "icon",
-        "href": "/favicon.ico"
+        "href": "$withBase('/favicon.ico')"
       }
     ]
   ],
@@ -49,18 +49,16 @@ export const siteData = {
       "regularPath": "/",
       "relativePath": "README.md",
       "key": "v-c91e1a7a",
-      "path": "/"
+      "path": "/",
+      "lastUpdated": "2021年11月22日星期一晚上11点46分"
     },
     {
       "title": "About me",
-      "frontmatter": {
-        "navbar": false,
-        "title": "About me"
-      },
-      "regularPath": "/about1.html",
-      "relativePath": "about1.md",
-      "key": "v-38ebf9c8",
-      "path": "/about1.html",
+      "frontmatter": {},
+      "regularPath": "/about.html",
+      "relativePath": "about.md",
+      "key": "v-389c8f18",
+      "path": "/about.html",
       "headers": [
         {
           "level": 2,
@@ -86,18 +84,24 @@ export const siteData = {
           "level": 2,
           "title": "一级标题",
           "slug": "一级标题-3"
+        },
+        {
+          "level": 2,
+          "title": "一级标题",
+          "slug": "一级标题-4"
+        },
+        {
+          "level": 2,
+          "title": "一级标题",
+          "slug": "一级标题-5"
+        },
+        {
+          "level": 2,
+          "title": "一级标题",
+          "slug": "一级标题-6"
         }
-      ]
-    },
-    {
-      "title": "介绍",
-      "frontmatter": {
-        "title": "介绍"
-      },
-      "regularPath": "/css/",
-      "relativePath": "css/README.md",
-      "key": "v-c050bd70",
-      "path": "/css/"
+      ],
+      "lastUpdated": "2021年11月24日星期三下午5点54分"
     },
     {
       "title": "默认主题配置",
@@ -170,7 +174,30 @@ export const siteData = {
           "title": "搜索框",
           "slug": "搜索框"
         }
-      ]
+      ],
+      "lastUpdated": "2021年11月22日星期一晚上11点46分"
+    },
+    {
+      "title": "介绍",
+      "frontmatter": {
+        "title": "介绍"
+      },
+      "regularPath": "/css/",
+      "relativePath": "css/README.md",
+      "key": "v-c050bd70",
+      "path": "/css/",
+      "lastUpdated": "2021年11月22日星期一晚上11点46分"
+    },
+    {
+      "title": "介绍",
+      "frontmatter": {
+        "title": "介绍"
+      },
+      "regularPath": "/javascript/",
+      "relativePath": "javascript/README.md",
+      "key": "v-1c70eb74",
+      "path": "/javascript/",
+      "lastUpdated": "2021年11月22日星期一晚上11点46分"
     },
     {
       "title": "使用插件",
@@ -243,15 +270,19 @@ export const siteData = {
           "title": "搜索框",
           "slug": "搜索框"
         }
-      ]
+      ],
+      "lastUpdated": "2021年11月22日星期一晚上11点46分"
     },
     {
       "title": "About me",
-      "frontmatter": {},
-      "regularPath": "/about.html",
-      "relativePath": "about.md",
-      "key": "v-389c8f18",
-      "path": "/about.html",
+      "frontmatter": {
+        "navbar": false,
+        "title": "About me"
+      },
+      "regularPath": "/about1.html",
+      "relativePath": "about1.md",
+      "key": "v-38ebf9c8",
+      "path": "/about1.html",
       "headers": [
         {
           "level": 2,
@@ -278,20 +309,12 @@ export const siteData = {
           "title": "一级标题",
           "slug": "一级标题-3"
         }
-      ]
-    },
-    {
-      "title": "介绍",
-      "frontmatter": {
-        "title": "介绍"
-      },
-      "regularPath": "/javascript/",
-      "relativePath": "javascript/README.md",
-      "key": "v-1c70eb74",
-      "path": "/javascript/"
+      ],
+      "lastUpdated": "2021年11月22日星期一晚上11点46分"
     }
   ],
   "themeConfig": {
+    "lastUpdated": "更新时间",
     "logo": "/assets/img/logo.png",
     "nav": [
       {
