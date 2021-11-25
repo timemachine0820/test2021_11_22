@@ -29,11 +29,11 @@ export const routes = [
     },
   },
   {
-    name: "v-284c9f6a",
-    path: "/css/c-a.html",
+    name: "v-38ebf9c8",
+    path: "/about1.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-284c9f6a").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-38ebf9c8").then(next)
     },
   },
   {
@@ -47,6 +47,14 @@ export const routes = [
   {
     path: "/css/index.html",
     redirect: "/css/"
+  },
+  {
+    name: "v-284c9f6a",
+    path: "/css/c-a.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-284c9f6a").then(next)
+    },
   },
   {
     name: "v-1c70eb74",
@@ -66,14 +74,6 @@ export const routes = [
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-1d127159").then(next)
-    },
-  },
-  {
-    name: "v-38ebf9c8",
-    path: "/about1.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-38ebf9c8").then(next)
     },
   },
   {
