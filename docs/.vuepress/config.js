@@ -24,7 +24,7 @@ module.exports = {
       // autoCreateIssue: true,
       // 其他的 Vssue 配置
       owner: 'timemachine0820',
-      repo: 'docs',
+      repo: 'test2021_11_22',
       clientId: 'f564fd82c2663c4e46d1',
       clientSecret: '41682c9244f493fa7a8e5854171bbd1ac1d5cb15',
     },
