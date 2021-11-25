@@ -6,63 +6,13 @@ export const siteData = {
   "description": "description",
   "base": "/test2021_11_22/",
   "headTags": [
-    [
-      "meta",
-      {
-        "name": "keywords",
-        "content": "tao,blog"
-      }
-    ],
-    [
-      "link",
-      {
-        "rel": "icon",
-        "href": "$withBase('/favicon.ico')"
-      }
-    ]
+    "meta",
+    {
+      "name": "keywords",
+      "content": "tao,blog"
+    }
   ],
   "pages": [
-    {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "heroText": "Hero 标题",
-        "tagline": "Hero 副标题",
-        "actionText": "快速上手 →",
-        "actionLink": "/zh/guide/",
-        "features": [
-          {
-            "title": "简洁至上",
-            "details": "以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。"
-          },
-          {
-            "title": "Vue驱动",
-            "details": "享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。"
-          },
-          {
-            "title": "高性能",
-            "details": "VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。"
-          }
-        ],
-        "footer": "MIT Licensed | Copyright © 2018-present Evan You"
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-c91e1a7a",
-      "path": "/",
-      "lastUpdated": "2021年11月22日星期一晚上11点46分"
-    },
-    {
-      "title": "介绍",
-      "frontmatter": {
-        "title": "介绍"
-      },
-      "regularPath": "/css/",
-      "relativePath": "css/README.md",
-      "key": "v-c050bd70",
-      "path": "/css/",
-      "lastUpdated": "2021年11月22日星期一晚上11点46分"
-    },
     {
       "title": "About me",
       "frontmatter": {},
@@ -115,6 +65,47 @@ export const siteData = {
       "lastUpdated": "2021年11月25日星期四上午9点45分"
     },
     {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "heroText": "Hero 标题",
+        "tagline": "Hero 副标题",
+        "actionText": "快速上手 →",
+        "actionLink": "/zh/guide/",
+        "features": [
+          {
+            "title": "简洁至上",
+            "details": "以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。"
+          },
+          {
+            "title": "Vue驱动",
+            "details": "享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。"
+          },
+          {
+            "title": "高性能",
+            "details": "VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。"
+          }
+        ],
+        "footer": "MIT Licensed | Copyright © 2018-present Evan You"
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-c91e1a7a",
+      "path": "/",
+      "lastUpdated": "2021年11月22日星期一晚上11点46分"
+    },
+    {
+      "title": "介绍",
+      "frontmatter": {
+        "title": "介绍"
+      },
+      "regularPath": "/css/",
+      "relativePath": "css/README.md",
+      "key": "v-c050bd70",
+      "path": "/css/",
+      "lastUpdated": "2021年11月22日星期一晚上11点46分"
+    },
+    {
       "title": "About me",
       "frontmatter": {
         "navbar": false,
@@ -154,41 +145,30 @@ export const siteData = {
       "lastUpdated": "2021年11月22日星期一晚上11点46分"
     },
     {
-      "title": "介绍",
+      "title": "默认主题配置",
       "frontmatter": {
-        "title": "介绍"
-      },
-      "regularPath": "/javascript/",
-      "relativePath": "javascript/README.md",
-      "key": "v-1c70eb74",
-      "path": "/javascript/",
-      "lastUpdated": "2021年11月22日星期一晚上11点46分"
-    },
-    {
-      "title": "使用插件",
-      "frontmatter": {
-        "title": "使用插件",
+        "title": "默认主题配置",
         "sidebarDepth": 2
       },
-      "regularPath": "/javascript/j-a.html",
-      "relativePath": "javascript/j-a.md",
-      "key": "v-1d127159",
-      "path": "/javascript/j-a.html",
+      "regularPath": "/css/c-a.html",
+      "relativePath": "css/c-a.md",
+      "key": "v-284c9f6a",
+      "path": "/css/c-a.html",
       "headers": [
         {
           "level": 2,
-          "title": "使用插件",
-          "slug": "使用插件"
+          "title": "首页",
+          "slug": "首页"
         },
         {
           "level": 2,
-          "title": "使用来自依赖的插件",
-          "slug": "使用来自依赖的插件"
+          "title": "导航栏",
+          "slug": "导航栏"
         },
         {
           "level": 3,
-          "title": "插件的缩写",
-          "slug": "插件的缩写"
+          "title": "导航栏Logo",
+          "slug": "导航栏logo"
         },
         {
           "level": 3,
@@ -239,30 +219,41 @@ export const siteData = {
       "lastUpdated": "2021年11月22日星期一晚上11点46分"
     },
     {
-      "title": "默认主题配置",
+      "title": "介绍",
       "frontmatter": {
-        "title": "默认主题配置",
+        "title": "介绍"
+      },
+      "regularPath": "/javascript/",
+      "relativePath": "javascript/README.md",
+      "key": "v-1c70eb74",
+      "path": "/javascript/",
+      "lastUpdated": "2021年11月22日星期一晚上11点46分"
+    },
+    {
+      "title": "使用插件",
+      "frontmatter": {
+        "title": "使用插件",
         "sidebarDepth": 2
       },
-      "regularPath": "/css/c-a.html",
-      "relativePath": "css/c-a.md",
-      "key": "v-284c9f6a",
-      "path": "/css/c-a.html",
+      "regularPath": "/javascript/j-a.html",
+      "relativePath": "javascript/j-a.md",
+      "key": "v-1d127159",
+      "path": "/javascript/j-a.html",
       "headers": [
         {
           "level": 2,
-          "title": "首页",
-          "slug": "首页"
+          "title": "使用插件",
+          "slug": "使用插件"
         },
         {
           "level": 2,
-          "title": "导航栏",
-          "slug": "导航栏"
+          "title": "使用来自依赖的插件",
+          "slug": "使用来自依赖的插件"
         },
         {
           "level": 3,
-          "title": "导航栏Logo",
-          "slug": "导航栏logo"
+          "title": "插件的缩写",
+          "slug": "插件的缩写"
         },
         {
           "level": 3,
